@@ -1,0 +1,20 @@
+#include<stdio.h>
+//123
+//123
+//123
+int main()
+{
+    int n,i,j;
+    printf("Enter a number:");
+    scanf("%d",&n);
+
+    for(i=1;i<=n;i++)
+    {
+        for(j=1;j<=n;j++)
+        {
+            printf("%d ",j);
+        }
+        printf("\n");
+    }
+    return 0;
+}
